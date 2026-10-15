@@ -4,7 +4,7 @@ from datetime import datetime
 
 BASE = "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities"
 
-// Пишете бирживой тикер для добавления.
+# Пишете бирживой тикер для добавления.
 TICKERS = {"SBER":"Сбер", "GAZP":"Газпром", "YDEX":"Яндекс", "OZON":"Ozon", "T":"Т-Технологии",
     "GMKN":"Норникель", "LKOH":"Лукойл","ROSN":"Роснефть", "SIBN":"Газпром-нефть"}
 
