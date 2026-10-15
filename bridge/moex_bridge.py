@@ -3,6 +3,7 @@ from pathlib import Path
 from datetime import datetime
 
 BASE = "https://iss.moex.com/iss/engines/stock/markets/shares/boards/TQBR/securities"
+
 // Пишете бирживой тикер для добавления.
 TICKERS = {"SBER":"Сбер", "GAZP":"Газпром", "YDEX":"Яндекс", "OZON":"Ozon", "T":"Т-Технологии",
     "GMKN":"Норникель", "LKOH":"Лукойл","ROSN":"Роснефть", "SIBN":"Газпром-нефть"}
@@ -10,6 +11,7 @@ TICKERS = {"SBER":"Сбер", "GAZP":"Газпром", "YDEX":"Яндекс", "O
 RCON_HOST, RCON_PORT = "127.0.0.1", 25575
 RCON_PASSWORD = "42Abc4242"
 POLL_SECONDS = 60
+
 OUT = Path(__file__).resolve().parent / "out"
 OUT.mkdir(exist_ok=True)
 
