@@ -1,6 +1,5 @@
 import os, socket, time, struct, json
-
-
+import requests
 
 API = "https://invest-public-api.tbank.ru/rest/tinkoff.public.invest.api.contract.v1"
 
